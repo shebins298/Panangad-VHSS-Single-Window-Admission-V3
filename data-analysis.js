@@ -80,6 +80,6 @@ onAuthStateChanged(auth, async (user) => {
       showAccessDenied();
     }
   } else {
-    window.location.href = "login.html";
+    window.location.href = "index.html";
   }
 });
